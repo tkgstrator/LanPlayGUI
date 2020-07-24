@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanPlayGUI", "LanPlayGUI\LanPlayGUI.csproj", "{07A63D59-0F76-4EEE-BD2B-8A33AD48252D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07A63D59-0F76-4EEE-BD2B-8A33AD48252D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A63D59-0F76-4EEE-BD2B-8A33AD48252D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A63D59-0F76-4EEE-BD2B-8A33AD48252D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A63D59-0F76-4EEE-BD2B-8A33AD48252D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F83E5F3-F796-456C-8FFB-102412DFAA4D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<Window x:Class="LanPlayGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LanPlayGUI"
+        mc:Ignorable="d"
+        Title="SwitchLanPlay GUI" Height="200" Width="400">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,35,0,0" TextWrapping="Wrap" Text="SwitchLanPlay" VerticalAlignment="Top" FontSize="30" FontFamily="Consolas"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="30,120,160,0" VerticalAlignment="Top" Width="160" FontFamily="Consolas" SelectedIndex="0" Height="30" FontSize="18"/>
+        <Button x:Name="button" Content="CONNECT" HorizontalAlignment="Right" Margin="0,120,30,0" VerticalAlignment="Top" Width="100" Click="connect" Height="30" FontFamily="Consolas" FontSize="18"/>
+
+    </Grid>
+</Window>
