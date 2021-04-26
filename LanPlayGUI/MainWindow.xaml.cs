@@ -29,7 +29,7 @@ namespace LanPlayGUI
             InitializeComponent();
             System.Net.WebClient wc = new System.Net.WebClient();
             // GitHubGistからリストを取得して反映させる
-            var serverList = wc.DownloadString("https://gist.githubusercontent.com/tkgstrator/bfa35577ccd388751ab512a7ffd70a2c/raw/b9bb046a67b21d7821f20eadf96b3d9b3185715e/ServerList.json");
+            var serverList = wc.DownloadString("https://gist.githubusercontent.com/tkgstrator/bfa35577ccd388751ab512a7ffd70a2c/raw/ServerList.json");
             lists = JsonConvert.DeserializeObject<List<ServerLists>>(serverList);
 
             foreach (ServerLists list in lists)
